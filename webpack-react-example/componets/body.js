@@ -30,13 +30,13 @@ class Body extends React.Component {
                 <h1>Lista de Contatos de Sites</h1>
                 { persons.map((element, key) =>{
                     
-                    let nome = element.nome;
-                    let site = element.site;
+                    let id = element.id;
+                    let firstName = element.firstName;
                     
                     return (
                         <ul>
-                            <li>{nome}</li>
-                            <li><a>{site}</a></li>
+                            <li>{id}</li>
+                            <li><a>{firstName}</a></li>
                         </ul>
                     );
                 })}
