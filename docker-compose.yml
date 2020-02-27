@@ -1,0 +1,17 @@
+version: '3'
+services:
+  react:
+    build: ./webpack-react-example
+    ports:
+      - 8080:8080
+    command: yarn start
+    volumes:
+      - ./webpack-react-example:/app
+  
+  backend:
+    build: ./api-nodejs
+    ports:
+      - 3000:3000
+    command: yarn start
+    volumes:
+      - ./api-nodejs:/backend

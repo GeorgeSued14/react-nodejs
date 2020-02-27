@@ -1,0 +1,53 @@
+html {
+    background-color: #b45252;
+}
+body {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #fff;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 200px  auto;
+    padding: 20px;
+    width: 50%;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+ul {
+    margin: 20px auto;
+
+}
+ul li {
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+
+ul li a {
+    list-style: none;
+    color: #b45252;
+    background-color: #fff;
+    border: 3px solid #b45252;
+    padding: 10px 20px;
+    border-radius:px;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    list-style: none;
+    color: #fff;
+    background-color: #ce2f2f;
+    border: 3px solid #ce2f2f;
+    padding: 10px 20px;
+    border-radius:px;
+}
+ul li label {
+    color: #ce2f2f;
+    font-weight: bold;
+}
